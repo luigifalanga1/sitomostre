@@ -1,0 +1,344 @@
+body {
+    background-color: #085CD7;
+    color: #fff;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #085CD7;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35PX 50px ;
+    font-size: 31px;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30PX;
+    font-weight: bold;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #085CD7;   
+}
+
+header p {
+    font-weight: bold;
+}
+
+.primapag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testoprimo {
+    display: grid;
+    font-size: 40px;  
+    margin-left: 80px;
+}
+
+.iamginejean{
+    max-width: 50%;
+}
+.primapag img {
+    max-width: 100%;
+}
+.subtitle {
+    font-size: 30px;
+    font-style: italic;
+}
+.titolo {
+ font-weight: bold;
+}
+
+.testomostra {
+    background-color: #fff;
+   display: flex;
+   padding: 18%;
+   color: black;
+   display: grid;
+   font-size: 30px;
+   gap: 10PX;
+   line-height: 1.5;
+}
+
+.testocoll {
+    display: flex;
+    padding: 18%;
+    display: grid;
+    font-size: 30px;
+    gap: 10PX;
+    line-height: 1.5;
+}
+
+.artisti {
+    display: grid;
+    grid-template-columns: 3fr  3fr 3fr;
+    max-width: 1440px;
+    flex-direction: column;
+    gap: 100px;
+    padding: 18%;
+    font-size: 32px;
+    font-weight: bold;
+}
+.artisti a {
+    color: #FAF2EF;
+}
+
+.artisti img {
+    max-width: 118%;
+    gap: 40px;
+}
+
+footer {
+    background-color: #fff;
+    color: #085CD7;
+    text-align: center;
+    padding: 3% 18% 3% 18%;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aprimapag {
+    display: flex;
+    background-color: #085CD7;
+    justify-content: space-between;
+    font-size: 40px;
+    padding-left: 8%;
+    align-items: center;
+}
+
+.atestoprimo {
+    display: flex;
+    font-size: 40px;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.atitolo {
+color: #fff;
+}
+
+.aprimapag img {
+    max-width: 50%;
+    background-color: #085CD7;
+
+}
+
+.titolo {
+ font-weight: bold;
+}
+.atestomostra {
+    background-color: #fff;
+   display: flex;
+   padding: 18%;
+   color: black;
+   display: grid;
+   font-size: 30px;
+   gap: 10PX;
+   line-height: 1.5;
+}
+
+.sottotitolo {
+
+    font-style:italic;
+    font-size: 40px;
+}
+
+.artistipag {
+    background-color: #fff;
+    color: #085CD7;
+}
+
+.aartisti {
+    display: grid;
+    grid-template-columns: 3fr  3fr 3fr;
+    max-width: 1000px;
+    gap: 40px;
+    padding: 18%;
+   
+}
+.aartisti img {
+    align-items: center;
+}
+.bprimapag img {
+    max-width: 100%;
+}
+
+.cprimapag img {
+    max-width: 120%;
+    align-self: center;
+}
+
+.ctestomostra {
+
+   display: flex;
+   padding: 300px;
+   color: white ;
+   display: grid;
+   font-size: 30px;
+   line-height: 1.5;
+}
+.ctestomostra img{
+    max-width: 100%;
+    padding: 130px;
+}
+
+.btestocoll {
+
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 600px;
+    margin-right: 300px;
+    margin-left: 300px;
+    display: grid;
+    font-size: 30px;
+    gap: 10PX;
+    line-height: 1.5;
+}
+
+
+.dprimapag img {
+    max-width: 100%;
+    align-self: center;
+}
+.dtestomostra {
+    color: #085CD7;  
+    display: flex;
+    padding: 300px;
+    display: grid;
+    font-size: 30px;
+    gap: 10PX;
+    line-height: 1.5;
+}
+.artistbody {
+    background-color: white;
+    color: #085CD7;
+    margin: auto;
+
+}
+.bartisti {
+    display: grid;
+    grid-template-columns: 2fr  2fr ;
+    column-gap: 30px;
+    max-width: 1700px;
+    flex-direction: column;
+    gap: 40px;
+    transform: scale(0.7);
+}
+
+.bartisti img {
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 300%;
+    column-gap: 40px;
+}
+
+.amartina {
+    background-color: #1E9FFA;
+    color: #fff;
+}
+
+
+
+.etestomostra {
+    color: #fff; 
+    display: flex;
+    padding: 300px;
+    display: grid;
+    font-size: 30px;
+    gap: 10PX;
+    line-height: 1.5;
+
+}
+
+.dartisti {
+    display: grid;
+    column-gap: 30px;
+    max-width: 1700px;
+    flex-direction: column;
+    gap: 40px;
+    transform: scale(0.7);
+}
+
+.flexing {
+    display: flex;
+    gap: 40px;
+}
+
+.apaul {
+    background-color: #FAF2EF;
+    color: #085CD7;
+}
+
+.ftestomostra {
+    color: #085CD7;
+    display: flex;
+    padding: 300px;
+    display: grid;
+    font-size: 30px;
+    gap: 10PX;
+    line-height: 1.5;
+}
+.eartisti {
+    display: grid;
+    column-gap: 30px;
+grid-template-columns: 2fr 2fr;
+    max-width: 1700px;
+    flex-direction: column;
+    gap: 40px;
+    transform: scale(0.7);
+}
+
+@media (max-width:1000px) {
+    header {
+        font-size: 22px;
+        }
+    h1 {
+        font-size: 22px;
+        display: grid;
+    }
+
+    .testoprimo {
+        font-size: 22px;
+        }
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .testomostra {
+        font-size: 20px;
+        
+    }
+
+    .testocoll {
+        font-size: 20px ;
+    }
+
+    .artisti {
+        grid-template-columns: 2fr 2fr ;
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    
+}
