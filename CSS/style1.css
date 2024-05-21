@@ -9,7 +9,7 @@ img {
     object-fit: cover;
 }
 
-h4, h3,  p, .artisti, .opere, footer {
+h4, h3,  p, .artisti, .opere {
     padding-left: 18%;
     padding-right: 18%;
 }
@@ -142,10 +142,13 @@ footer {
     text-align: center;
     font-size: 31px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 100%;
+    padding: 2%;
+
 
 }
+
 .artistipag {
     background-color: #fff;
     color: #085CD7;
@@ -256,7 +259,7 @@ h3 {
     color: #fff;
     gap: 10PX;
     line-height: 1.5;
-    padding: 13%;
+    padding: 18%;
 }
 
 .m-testo {
